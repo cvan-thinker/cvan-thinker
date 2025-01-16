@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Currency Counter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Smart Currency Counter for vision impaired</h1>
+        <div id="loginSection">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" />
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" />
+            </div>
+            <button class="button" onclick="login()">Login</button>
+        </div>
+        <div id="currencySection" style="display: none;">
+            <h2>Capture Currency</h2>
+            <button class="button" onclick="captureCurrency()">Capture</button>
+            <p id="currencyResult"></p>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
